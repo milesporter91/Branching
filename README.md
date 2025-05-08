@@ -1,5 +1,7 @@
 ## Git Branching Practice
 
+Git cheat sheet and branching practice.
+
 ### Basic Commands
 * `git init` - initialize local git repo in current folder( working directory)
 * `git add` - stage all changes for commit
@@ -17,3 +19,7 @@
 * `git branch` - list local branches
 * `git branch branchName` - create new branch 'branchName'
 * `git checkout branchName` - switch to branch 'branchName'
+
+### Remote Commands
+* `git remote add alias URL` - connect local repo to remote, useing name `alias` for remote repo `URL`
+* `git push alias branchName` - push local commits to remote repo `alias` on branch `branchName`
